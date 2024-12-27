@@ -8,6 +8,9 @@ private:
 	std::vector<Node> children;
 
 public:
+	std::string type = "";
+	int count = 0;
+	std::string tr = "";
 	Node(std::string lex) {
 		lexem = lex;
 	}
